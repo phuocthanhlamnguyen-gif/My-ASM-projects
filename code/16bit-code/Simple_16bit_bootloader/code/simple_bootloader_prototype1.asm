@@ -14,9 +14,7 @@ _start:
     mov si, msg
 
 .loop:
-    lodsb           
-    test al, al     
-    jz halt         
+    lodsb                    
     int 0x10        
     jmp .loop
 
