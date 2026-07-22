@@ -1,14 +1,18 @@
-# My-ASM-projects
-<img width="612" height="329" alt="image" src="https://github.com/user-attachments/assets/41161662-6523-48a6-a52f-39744ed4417c" />
+# My ASM Projects
 
-Welcome, dear reader. Today you'll see my ASM projects! If you're lucky, you'll get this, but I, myself, programmed it.
-As you know, it's a BSD license; then the projects could be credited, or they could be used for your satisfaction, but you need to READ it before forking it!
+Welcome, dear reader. Today, you'll see my projects and the ASM language. It has the projects that I made and admire the most.
 
-Still, you could see it's made mainly in [Assembly](https://en.wikipedia.org/wiki/Assembly_language). You could write, modify, or sell the `x86_32` or `x86_64` code. Still, 
-I recommend `x86_64`, because it's the newest and the most used, but if you're on a legacy chip, then do 32-bit.
+I made them in Linux `x86_64`, `x86_32` and the original `x86`.
 
-But it's your choice, and lastly, do a PR or issue me if you have a new "update", and the Outside rules of the license are:
-- Mostly based on BSD
-- But issue or PR me if you have an update
-- Tell me if there're security or the quality is bad, so that I'm alarmed
-- Done!
+Before you start to fork or fix my repo, here are some important rules to follow:
+
+## Rules:
++ No abusive, swearing, or bad content allowed
++ During the bootloader, it's your machine, and I can't control it, but
+don't dual-boot it
++ The requirements are:
+  + [NASM](https://www.nasm.us/), for compiling to test the code
+  + [QEMU](https://www.qemu.org/), if you want to commit to a 16-bit bootloader
+  + [GDB](https://www.sourceware.org/gdb/), for debugging code
+  + If on Windows, then [Imgburn](https://www.imgburn.com/index.php), or if you're on a UNIX-like system, then it depends
+  + And lastly, use WSL or UNIX, as most of my code is in UNIX
