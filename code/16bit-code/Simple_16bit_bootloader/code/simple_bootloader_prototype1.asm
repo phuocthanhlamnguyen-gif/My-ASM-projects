@@ -10,7 +10,6 @@ _start:
     mov sp, 0x7c00
     sti
 
-    ; 2. Print Loop
     mov ah, 0x0e
     mov si, msg
 
